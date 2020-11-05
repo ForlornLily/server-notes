@@ -20,4 +20,4 @@ Based on [vuepress](https://vuepress.vuejs.org/)
 
 ## MVC 概览
 
-~[](https://github.com/ForlornLily/server-notes/blob/main/docs/images/Express_MVC.png)
+![](https://github.com/ForlornLily/server-notes/blob/main/docs/images/Express_MVC.png)
