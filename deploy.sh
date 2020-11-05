@@ -16,6 +16,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f "https://${access_token}@github.com/ForlornLily/server-notes.git" main:gh-pages
+git push -f "https://${access_token}@github.com/ForlornLily/server-notes.git" master:gh-pages
 
 cd -
