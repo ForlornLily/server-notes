@@ -25,6 +25,7 @@ module.exports = {
         items: [
           { text: 'Express', link: '/express/' },
           { text: 'koa', link: '/koa/' },
+          { text: 'nest', link: '/nest/' },
         ],
       },
       {

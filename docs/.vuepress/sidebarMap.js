@@ -5,6 +5,7 @@ const sidebarMap = [
   { title: 'SQL', dirname: 'sql' },
   { title: 'MongoDB', dirname: 'mongodb' },
   { title: 'MySQL', dirname: 'mysql' },
+  { title: 'nest', dirname: 'nest' },
 ]
 
 module.exports = sidebarMap

@@ -6,8 +6,10 @@ Based on [vuepress](https://vuepress.vuejs.org/)
 
 ## 常见组合
 
-- 现有基本框架：express/koa/nest
-- 数据库：mysql/mongodb/redis
+- 现有基本框架：express/koa
+  - 基于 koa 封装的 egg
+  - 基于 express 封装的 nest
+- 数据库：mysql/mongodb，redis
   - 数据库 ORM：sequelize/mongoose
 - 调试/辅助工具：postman
 
@@ -21,3 +23,7 @@ Based on [vuepress](https://vuepress.vuejs.org/)
 ## MVC 概览
 
 ![](https://github.com/ForlornLily/server-notes/blob/main/docs/images/Express_MVC.png)
+
+## 其他
+
+个人前端笔记 [fe-notes](https://github.com/ForlornLily/fe-notes)
