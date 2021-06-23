@@ -67,7 +67,7 @@ app.listen(port, () => console.log(`app running in ${port}`))
 ## 视图 demo
 
 以 [handlebars](https://forlornlily.github.io/fe-notes/handlebars/) 做为视图引擎  
-安装 `express-handlebars`
+安装 `express-handlebars`，更多内容见 [视图](./30_views)
 
 ```js
 const express = require('express')
