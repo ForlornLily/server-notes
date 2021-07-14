@@ -24,11 +24,11 @@ app.get('/greeting', (req, res) => {
 
 - req.query
 
-- req.body
+- req.body：相关内容 [form](./31_form)
 
 - req.route
 
-- req.cookies, req.signedCookies
+- req.cookies, req.signedCookies：相关内容 [cookie](./32_cookie)
 
 - req.headers
 
@@ -54,7 +54,7 @@ app.get('/greeting', (req, res) => {
 
 - res.set
 
-- res.cookies, res.clearCookie
+- res.cookies, res.clearCookie：相关内容 [cookie](./32_cookie)
 
 - res.redirect
 
@@ -76,4 +76,7 @@ app.get('/greeting', (req, res) => {
 
 - res.links
 
-- res.locals, res.render
+- res.locals, res.render：相关内容 [视图复用](./30_views)
+
+res.locals: 在 `res` 中赋值，使得值在当前 response 所在的函数内可用。通常用来设置模板渲染  
+对应的还有 `app.locals`，相当于在 `app` 整个实例中都可以用
