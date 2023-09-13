@@ -37,6 +37,10 @@ module.exports = {
           { text: 'Redis', link: '/redis/' },
         ],
       },
+      {
+        text: '前端',
+        link: 'https://forlornlily.github.io/fe-notes/'
+      }
     ],
     sidebar: utils.inferSiderbars(),
     lastUpdated: '上次更新',
